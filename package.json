@@ -25,7 +25,15 @@
     "minimatch": "3.0.4",
     "mkpath": "1.0.0",
     "optimist": "^0.6.1",
+<<<<<<< HEAD
     "proxy-agent": "^3.0.0"
+=======
+    "ora": "^4.0.2",
+    "proxy-agent": "^3.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "semver": "^6.3.0"
+>>>>>>> 6ff3d31... Added default configuration template and generator
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -37,6 +45,18 @@
     "mockery": "~2.1.0",
     "nock": "^10.0.6",
     "nyc": "^14.0.0"
+  },
+  "peerDependencies": {
+    "chromedriver": "*",
+    "geckodriver": "*"
+  },
+  "peerDependenciesMeta": {
+    "chromedriver": {
+      "optional": true
+    },
+    "geckodriver": {
+      "optional": true
+    }
   },
   "optionalDependencies": {
     "mocha": "^5.2.0"
