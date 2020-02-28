@@ -25,15 +25,11 @@
     "minimatch": "3.0.4",
     "mkpath": "1.0.0",
     "optimist": "^0.6.1",
-<<<<<<< HEAD
-    "proxy-agent": "^3.0.0"
-=======
     "ora": "^4.0.2",
-    "proxy-agent": "^3.1.1",
+    "proxy-agent": "^3.0.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "semver": "^6.3.0"
->>>>>>> 6ff3d31... Added default configuration template and generator
   },
   "devDependencies": {
     "chai": "^4.1.2",
